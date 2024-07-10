@@ -1,7 +1,7 @@
 #!pip install ydata_profiling
 #!pip install streamlit
 import pandas as pd
-from ydata_profiling import ProfileReport
+#from ydata_profiling import ProfileReport
 df = pd.read_csv('Financial_inclusion_dataset.csv')
 df.columns
 
